@@ -1,0 +1,35 @@
+.banner-container {
+    position: relative;
+    width: 1080px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.banner-wrap {
+    width: 10800px;
+    height: 400px;
+}
+
+.banner-image img {
+    float: left;
+    width: 1080px;
+    height: 400px;
+}
+
+.banner-container ol {
+    position: absolute;
+    left: 0;
+    bottom: 290px;
+    width: 300px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.banner-container ol li {
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    z-index: 100;
+}
+

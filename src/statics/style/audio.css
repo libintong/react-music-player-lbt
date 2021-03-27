@@ -1,0 +1,153 @@
+.audio {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0 210px;
+}
+
+.audio-img {
+    width: 125px;
+    height: 125px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 60px;
+    /*background-color: #000000;*/
+    border-radius: 10px;
+    box-shadow: 0 0 15px #272727;
+}
+
+.audio-img img {
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #cccccc;
+}
+
+.img-play {
+    animation: rotate 20s linear infinite;
+}
+
+.img-paused {
+    animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+}
+
+.audio-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 180px;
+    font-size: 12px;
+    color: white;
+    opacity: 0.9;
+    padding: 18px 0 10px 40px;
+}
+
+.audio-info span {
+    margin: 3px 0;
+}
+
+.audio-progress {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: #ffffff;
+    font-size: 10px;
+    opacity: 0.9;
+    padding-top: 10px;
+}
+
+.audio-outside {
+    width: 300px;
+    height: 3px;
+    background-color: white;
+    border-radius: 4px;
+    margin: 0 20px;
+    opacity: 0.9;
+}
+.audio-inside {
+    position: relative;
+    width: 0;
+    height: 3px;
+    /*padding-left: 3px;*/
+    background-color: #FF3030;
+    border-radius: 4px;
+}
+.audio-inside-btn {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: -5px;
+    right: -5px;
+    border-radius: 50%;
+    background: #FF3030;
+}
+
+.audio-inside-btn :after {
+     position: absolute;
+     content: " ";
+     top: 50%;
+     left: 50%;
+     -webkit-transform: translate(-50%,-50%);
+     transform: translate(-50%,-50%);
+     width: 5px;
+     height: 5px;
+     background: #ffffff;
+     border-radius: 50%;
+}
+
+.audio-inside-btn :hover {
+     transform: scale(1.2);
+}
+
+.audio-btn {
+    display: flex;
+    align-items: center;
+    margin: 0 50px 0 80px;
+}
+
+.audio-playOrPauseBtn {
+    margin: 0 15px;
+}
+
+.audio-lyrics {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.icon-prev:before {
+    content: "\e61d";
+    color: white;
+    font-size: 15px;
+}
+
+.icon-next:before {
+    color: white;
+    font-size: 15px;
+}
+
+
+.icon-bofang:before {
+    color: #ffffff;
+    font-size: 30px;
+    content: "\e600";
+}
+
+.icon-zanting:before {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.icon-lyrics:before {
+    color: #ffffff;
+    font-size: 22px;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

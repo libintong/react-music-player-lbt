@@ -1,0 +1,35 @@
+.home-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-newsong {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1100px;
+  height: 100%;
+  margin: 10px 0;
+  background: linear-gradient(transparent, #ff8040, #ff7575, transparent);
+}
+
+.home-footer {
+  width: 100%;
+  height: 35px;
+}
+
+.home-backtop {
+  position: fixed;
+  bottom: 60px;
+  right: 40px;
+  z-index: 2;
+}
+
+.home-playbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  background: #272727;
+}

@@ -1,0 +1,54 @@
+.login-outside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-inside {
+    position: absolute;
+    top: 100px;
+    width: 300px;
+    height: 300px;
+}
+
+.login-img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background: url("/src/statics/images/login-logo.png");
+}
+
+.login-content {
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.login-content input {
+    width: 280px;
+    height: 40px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #c7c7c7;
+    opacity: 0.7;
+    padding: 0 10px;
+}
+
+.login-btn {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.login-content button {
+    /*消除默认样式*/
+    margin: 0;
+    padding: 0;
+    border: 1px solid transparent;
+    outline: none;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    background: #FF3030;
+}

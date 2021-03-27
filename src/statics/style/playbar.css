@@ -1,0 +1,14 @@
+.playbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 45px;
+  margin: 0 50px 10px 0;
+}
+
+/*.playbar-lyrics {*/
+/*  position: absolute;*/
+/*  right: 15px;*/
+/*}*/
+
+
